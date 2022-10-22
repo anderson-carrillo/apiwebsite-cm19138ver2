@@ -1,0 +1,132 @@
+/* 
+__________________ DATOS ___________________ 
+CARNET: CM19138 
+NOMBRE: Carrillo Melara, Anderson Guillermo
+*/
+
+
+/* Estilo personalizado */
+
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    color: #0a0a0a;
+    font-family: "Cairo", sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+span {
+    font-weight: 600;
+    padding-left: 200px;
+}
+
+.p-boton {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+li {
+    font-style: italic;
+}
+
+
+table {
+    border: solid 2px #0a0a0a;
+    /* border-collapse: collapse; */
+    border-spacing: 0px;
+}
+
+thead {
+    /* border: solid 2px #fafafa; */
+
+    background-color: #0a0a0a;
+    color: #fafafa;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+th:not(:first-child) {
+    border-left: solid 1px #fafafa;
+
+    padding: 16px 8px;
+}
+
+th:not(:last-child) {
+    border-right: solid 1px #fafafa;
+
+    padding: 16px 8px;
+}
+
+tbody tr td {
+    padding: 16px;
+}
+
+/* Fin de estilos personalizados */
+
+
+
+img {
+    width: 3cm;
+    height: 3cm;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+th#price {
+    cursor: pointer;
+}
+
+li {
+    color: blue;
+}
+
+/*si chequea muestra los productos sin cheque desaparecen los productos*/
+input#c1:checked~table tbody tr.c1 {
+    display: table-row;
+}
+
+input#c1:not(checked)~table tbody tr.c1 {
+    display: none;
+}
+
+input#c2:checked~table tbody tr.c2 {
+    display: table-row;
+}
+
+input#c2:not(checked)~table tbody tr.c2 {
+    display: none;
+}
+
+input#c3:checked~table tbody tr.c3 {
+    display: table-row;
+}
+
+input#c3:not(checked)~table tbody tr.c3 {
+    display: none;
+}
+
+input#c4:checked~table tbody tr.c4 {
+    display: table-row;
+}
+
+input#c4:not(checked)~table tbody tr.c4 {
+    display: none;
+}
